@@ -3,11 +3,12 @@ package docstore
 import (
 	"context"
 	"fmt"
-	aa_dynamodb "github.com/aaronland/go-aws-dynamodb"
-	"gocloud.dev/docstore"
-	"gocloud.dev/docstore/awsdynamodb"
 	"net/url"
 	"strconv"
+
+	aa_dynamodb "github.com/aaronland/go-aws-dynamodb"
+	"gocloud.dev/docstore"
+	"gocloud.dev/docstore/awsdynamodb"	
 )
 
 const DYNAMODB_FALLBACK_FUNC_KEY string = "aaronland-dynamodb-fallback-func"
