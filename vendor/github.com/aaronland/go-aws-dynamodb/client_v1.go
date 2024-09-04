@@ -10,7 +10,7 @@ import (
 	aa_session "github.com/aaronland/go-aws-session"
 	"github.com/aws/aws-sdk-go/aws"
 	aws_session "github.com/aws/aws-sdk-go/aws/session"
-	aws_dynamodb "github.com/aws/aws-sdk-go/service/dynamodb"	
+	aws_dynamodb "github.com/aws/aws-sdk-go/service/dynamodb"
 )
 
 // NewClientV1 returns an aws-sdk-go (v1) compatible client which is still necessary

@@ -1,11 +1,9 @@
 module github.com/aaronland/gocloud-docstore
 
-go 1.22.1
-
-toolchain go1.23.0
+go 1.23
 
 require (
-	github.com/aaronland/go-aws-dynamodb v0.2.0
+	github.com/aaronland/go-aws-dynamodb v0.3.0
 	gocloud.dev v0.39.0
 )
 
